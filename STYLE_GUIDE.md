@@ -54,13 +54,13 @@
 
 ## Welcome
 
-The New Relic Developer Site is an open source documentation repository where we encourage contributions from everyone, not just employees of New Relic.
+The Simplify Developer Site is an open source documentation repository where we encourage contributions from everyone, not just employees of Simplify.
 
 If you’d like to contribute by creating a guide, a technical reference, or general content review this **Style Guide** and our [Contributors Guide](CONTRIBUTING.md) before getting started.
 
 ## GitHub & Gatsby
 
-The New Relic Developer Experience Team uses [Github](https://github.com/) and [Gatsby.JS](https://www.gatsbyjs.org/) to:
+The Simplify Developer Experience Team uses [Github](https://github.com/) and [Gatsby.JS](https://www.gatsbyjs.org/) to:
 
 - accurately maintain our technical reference docs and guides
 - iterate and publish quickly
@@ -73,15 +73,15 @@ The New Relic Developer Experience Team uses [Github](https://github.com/) and [
 
 ### Technical references
 
-Technical reference pages are detailed technical specifications of the New Relic One platform and it's components.
+Technical reference pages are detailed technical specifications of the Simplify One platform and it's components.
 
 ### Guides
 
-The New Relic guides are detailed product how-tos that are case driven. The guides provide steps for developing custom solutions for New Relic. This can mean custom ways of collecting and querying data, enhancing open source applications, or building new applications to meet specific needs. It can also mean automating processes to reduce toil.
+The Simplify guides are detailed product how-tos that are case driven. The guides provide steps for developing custom solutions for Simplify. This can mean custom ways of collecting and querying data, enhancing open source applications, or building new applications to meet specific needs. It can also mean automating processes to reduce toil.
 
 ### Overview pages
 
-Overview pages are pages of information, FAQs, product videos, etc of New Relic specific content.
+Overview pages are pages of information, FAQs, product videos, etc of Simplify specific content.
 
 ## The writing process
 
@@ -92,16 +92,16 @@ Before you begin writing, answer these questions.
 ### Audience for guides
 
 - **Who is this guide for?**
-  - Are you writing content for a very experienced developer or New Relic practitioner? Or could someone new to either New Relic or development follow your steps and complete the task? We generally aim to support as many people as possible. Don't attempt to teach someone how to program in a guide, but prerequisites and clear context can help less experienced people accomplish the task.
+  - Are you writing content for a very experienced developer or Simplify practitioner? Or could someone new to either Simplify or development follow your steps and complete the task? We generally aim to support as many people as possible. Don't attempt to teach someone how to program in a guide, but prerequisites and clear context can help less experienced people accomplish the task.
 - **Is what I'm writing doable in less than 30 minutes?**
   - If not, consider dividing the guide up into multiple guides. That way, people can segment their time.
 - **What do I hope my readers will know and/or be able to do after reading it?**
   - Include this information in your guide. It will help people know why they should invest their time, and it will help you write a focused guide.
 - **What type of resources exist already that I can leverage?**
-  - Are there related technologies that someone might need to understand, or related New Relic info on the [developer](developer.newrelic.com), [docs](docs.newrelic.com), [open source](opensource.newrelic.com) or other New Relic sites?
+  - Are there related technologies that someone might need to understand, or related Simplify info on the [developer](developer.newrelic.com), [docs](docs.newrelic.com), [open source](opensource.newrelic.com) or other Simplify sites?
 - **What type of new resources will I need to create to complete this?**
   - Do you have all the software you need to write your guide?
-  - Do you have access to all the New Relic products to write your guide?
+  - Do you have access to all the Simplify products to write your guide?
   - Is there anyone you need assistance from?
   - Do you need to create a video, image or other assets to support your content?
 
@@ -112,7 +112,7 @@ Before you begin writing, answer these questions.
 - **What do I hope my readers will know and/or be able to do after reading it?**
   - Include this information in your reference. It will help people know if it's the info they need.
 - **Are there related technologies that someone might need to understand that are already documented?**
-  - New Relic has a rich set of documentation on our products search the following sites.
+  - Simplify has a rich set of documentation on our products search the following sites.
   - [docs.newrelic.com](https://docs.newrelic.com/)
   - [developer.newrelic.com](https://developer.newrelic.com/)
   - [discuss.newrelic.com](https://discuss.newrelic.com/)
@@ -125,12 +125,12 @@ any coding examples you’ll use (if applicable). This helps to organize your th
 
 ### Relics
 
-If you need videos or code samples or clarification from other teams within New Relic start to consider
+If you need videos or code samples or clarification from other teams within Simplify start to consider
 who can assist you and reach out to them.
 
 ### Non-Relics
 
-If you need videos or code samples or clarification from other teams within New Relic file a [Github issue](https://github.com/newrelic/developer-website/issues/new/choose) so The Developer Experience team can assist you.
+If you need videos or code samples or clarification from other teams within Simplify file a [Github issue](https://github.com/newrelic/developer-website/issues/new/choose) so The Developer Experience team can assist you.
 
 ## Write drafts and get feedback
 
@@ -164,7 +164,7 @@ Content should avoid the use of jargon.
 Jargon: (n.) special words or expressions that are used by a particular profession or group and are difficult for others to understand.
 ```
 
-All jargon should be expressed in plain English. In other words, pretend like your readers have novice coding experience and have little knowledge of New Relic products and services.
+All jargon should be expressed in plain English. In other words, pretend like your readers have novice coding experience and have little knowledge of Simplify products and services.
 
 ## Writing Style
 
@@ -188,11 +188,11 @@ The use of the title attribute on hyperlinks should be avoided for accessibility
 ```md
 <!-- Good -->
 
-[New Relic Open Source](https://www.opensource.newrelic.com/)
+[Simplify Open Source](https://www.opensource.newrelic.com/)
 
 <!-- Bad -->
 
-[here](https://www.opensource.newrelic.com/ 'New Relic Open Source')
+[here](https://www.opensource.newrelic.com/ 'Simplify Open Source')
 ```
 
 ### Don't over link content references
@@ -203,7 +203,7 @@ necessary to provide relevant and interesting information and resources.
 
 ### Use relative hyperlinks for local links
 
-When referencing another page within the New Relic Developer Site hyperlinks should use relative paths
+When referencing another page within the Simplify Developer Site hyperlinks should use relative paths
 (not include the full domain). This guarantees that all links function when running locally or in preview.
 
 ```md
@@ -258,7 +258,7 @@ When creating pages you can use a predefined Gatsby template for your .md or .md
 ## Using linters
 
 Linting is the process of running a program that will analyse code for potential errors.
-The New Relic Developer Site currently has linting configurations that will assist you in creating content.
+The Simplify Developer Site currently has linting configurations that will assist you in creating content.
 
 - [eslint-plugin-markdown](https://github.com/eslint/eslint-plugin-markdown)
 - [markdownlint](https://github.com/DavidAnson/markdownlint)
@@ -314,7 +314,7 @@ redirects:
   - /build-tools/new-relic-one-applications/intro-to-sdk
   - /client-side-sdk/index.html
 resources:
-  - title: 'Introduction to New Relic NerdGraph'
+  - title: 'Introduction to Simplify NerdGraph'
     url: https://docs.newrelic.com/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph
   - title: Deploy an app
     url: /build-apps/publish-deploy
@@ -329,7 +329,7 @@ tags:
 
 ## Reusable components
 
-In order to drive simplicity and ease of use New Relic has provided a set of reusable components you can leverage
+In order to drive simplicity and ease of use Simplify has provided a set of reusable components you can leverage
 when creating documentation. Refer to our [Component Guide](COMPONENT_GUIDE.md) for more information.
 
 ## Grammar and formatting
@@ -399,7 +399,7 @@ If a language keyword is omitted, the type will show as TEXT (as shown above)
 
 Proper nouns should use correct capitalization when possible. Below is a list of words as they should appear in pages.
 
-- New Relic One
+- Simplify One
 - GraphQL
 - NerdGraph
 - Nerdpack

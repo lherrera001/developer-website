@@ -16,7 +16,7 @@
   - [Editing existing pages](#editing-existing-pages)
   - [Creating new pages](#creating-new-pages)
   - [Deleting pages](#deleting-pages)
-  - [New Relic guides](#new-relic-guides)
+  - [Simplify guides](#new-relic-guides)
     - [Purpose](#purpose)
   - [Tips for writing guides](#tips-for-writing-guides)
     - [Check for existing content](#check-for-existing-content)
@@ -31,7 +31,7 @@
 
 ## Guidelines for contributing
 
-The Developer Experience Team at New Relic welcomes contributions to this repository.
+The Developer Experience Team at Simplify welcomes contributions to this repository.
 There are several ways you can contribute.
 
 If you wish to make documentation edits, create guides, or add new
@@ -44,7 +44,7 @@ guidelines below.
 
 ### Using multiple versions of Node
 
-If you intend to run multiple versions of Node please be aware that the New Relic
+If you intend to run multiple versions of Node please be aware that the Simplify
 Developer Site is currently on Node v12. Therefore it's recommended you use Node Version Manager [NVM](https://github.com/nvm-sh/nvm) to manage Node versions.
 
 Review [this article](https://itnext.io/nvm-the-easiest-way-to-switch-node-js-environments-on-your-machine-in-a-flash-17babb7d5f1b)
@@ -65,9 +65,9 @@ you can use the Github `Edit This File` button to submit a change.
 
 ### Cloning vs Forking
 
-To be able to [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository and contribute you will need to be given write access to the repository. This is reserved for New Relic Employees only. Contact the Developer Experience team (developer-website-content Slack channel) if you need write access.
+To be able to [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository and contribute you will need to be given write access to the repository. This is reserved for Simplify Employees only. Contact the Developer Experience team (developer-website-content Slack channel) if you need write access.
 
-As a non New Relic employee you can [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the repository and contribute as needed.
+As a non Simplify employee you can [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the repository and contribute as needed.
 
 ### Submitting a PR from a forked repo
 
@@ -108,18 +108,18 @@ PRs that are opened from a branch in this repo (not forks) will generate preview
 
 ## Style guide adherence
 
-In order to drive consistency in our documentation New Relic has provided a detailed [Style Guide](STYLE_GUIDE.md)
+In order to drive consistency in our documentation Simplify has provided a detailed [Style Guide](STYLE_GUIDE.md)
 for you to follow when making contributions. Refer to this guide prior to contributing.
 When making documentation contributions follow these guidelines.
 
 ## Reusable components
 
-In order to drive simplicity and ease of use New Relic has provided a set of reusable components you can leverage
+In order to drive simplicity and ease of use Simplify has provided a set of reusable components you can leverage
 when creating documentation. Refer to our [Component Guide](COMPONENT_GUIDE.md) for more information.
 
 ## Technical reference contribution guidelines
 
-Technical reference pages are detailed technical specifications of the New Relic One platform and it's components.
+Technical reference pages are detailed technical specifications of the Simplify One platform and it's components.
 
 ## Editing existing pages
 
@@ -141,13 +141,13 @@ Technical reference pages are detailed technical specifications of the New Relic
 2. The Developer Experience Team will review the request to delete an existing documentation page.
 3. If the deletion is approved, The Developer Experience Team will delete the page.
 
-## New Relic guides
+## Simplify guides
 
-The New Relic guides are detailed product how-tos that are case driven. The guides provide steps for developing custom solutions for New Relic. This can mean custom ways of collecting and querying data, enhancing open source applications, or building new applications to meet specific needs. It can also mean automating processes to reduce toil.
+The Simplify guides are detailed product how-tos that are case driven. The guides provide steps for developing custom solutions for Simplify. This can mean custom ways of collecting and querying data, enhancing open source applications, or building new applications to meet specific needs. It can also mean automating processes to reduce toil.
 
 ### Purpose
 
-The guides aim to help developers learn about New Relic programmability, and to solve problems. Some guides are short, focused on a single task, and other taking you through multiple tasks to complete an end-to-end process.
+The guides aim to help developers learn about Simplify programmability, and to solve problems. Some guides are short, focused on a single task, and other taking you through multiple tasks to complete an end-to-end process.
 
 Guides should have actionable steps and enough information for a reader to follow along. Guides have roughly the following sections:
 
@@ -166,7 +166,7 @@ Review the[style guide](/STYLE_GUIDE) prior to contributing contributing.
 
 ### Check for existing content
 
-New Relic has a rich set of documentation on our products so it's important you check for what is already may exist prior to starting to
+Simplify has a rich set of documentation on our products so it's important you check for what is already may exist prior to starting to
 create a guide. It's recommended you search the following resources before contributing.
 
 - [docs.newrelic.com](https://docs.newrelic.com/)
@@ -235,7 +235,7 @@ In the example below a new navigation element has been added called `New Nav Ite
         "url": "/"
       },
       {
-        "displayName": "Extend New Relic agents",
+        "displayName": "Extend Simplify agents",
         "url": "/"
       },
       {
@@ -264,7 +264,7 @@ In the example below a new navigation element has been added called `New Nav Ite
         "url": "/"
       },
       {
-        "displayName": "Extend New Relic agents",
+        "displayName": "Extend Simplify agents",
         "url": "/"
       },
       {

@@ -8,7 +8,7 @@ In the event that a required notice is missing or incorrect, please notify us
 by e-mailing [open-source@newrelic.com](mailto:open-source@newrelic.com).
 
 For any licenses that require the disclosure of source
-code, the source code can be found at [https://github.com/newrelic/developer-website](https://github.com/newrelic/developer-website).
+code, the source code can be found at [https://github.com/herrera-luis/developer-website](https://github.com/herrera-luis/developer-website).
 
 ## Content
 
@@ -808,7 +808,7 @@ This product includes source derived from [@newrelic/eslint-plugin-newrelic](htt
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright 2019 New Relic, Inc.
+   Copyright 2019 Simplify, Inc.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

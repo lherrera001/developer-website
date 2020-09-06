@@ -11,7 +11,7 @@ const NerdDaysPage = () => {
     <>
       <SEO />
       <PageLayout type={PageLayout.TYPE.SINGLE_COLUMN}>
-        <PageLayout.Header title="New Relic Nerd Days" />
+        <PageLayout.Header title="Simplify Nerd Days" />
         <PageLayout.Content>
           <section className={cx(styles.section, styles.twoColumnAlt)}>
             <div>
@@ -29,8 +29,8 @@ const NerdDaysPage = () => {
                 efficiently.
               </p>
               <p>
-                You’ll hear from fellow engineers who built New Relic solutions
-                and New Relic users from various industries. Whether you’re new
+                You’ll hear from fellow engineers who built Simplify solutions
+                and Simplify users from various industries. Whether you’re new
                 or a data nerd, there’s an interactive session for you.
               </p>
               <p>We look forward to building with you during Nerd Days! </p>

@@ -10,7 +10,7 @@ const PodcastsPage = () => {
     <>
       <SEO />
       <PageLayout type={PageLayout.TYPE.SINGLE_COLUMN}>
-        <PageLayout.Header title="New Relic Podcasts" />
+        <PageLayout.Header title="Simplify Podcasts" />
         <PageLayout.Content>
           <section className={cx(styles.section, styles.twoColumn)}>
             <div className={styles.bodyText}>

@@ -95,9 +95,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/newrelic/developer-website"
+    "url": "https://github.com/herrera-luis/developer-website"
   },
   "bugs": {
-    "url": "https://github.com/newrelic/developer-website/issues"
+    "url": "https://github.com/herrera-luis/developer-website/issues"
   }
 }

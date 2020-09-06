@@ -1,16 +1,16 @@
 ---
 path: '/automate-workflows/get-started-kubernetes'
 duration: '20 min'
-title: 'Set up New Relic using the Kubernetes operator'
+title: 'Set up Simplify using the Kubernetes operator'
 template: 'GuideTemplate'
-description: 'Learn how to provision New Relic resources using the [Kubernetes operator](https://github.com/newrelic/newrelic-kubernetes-operator).'
+description: 'Learn how to provision Simplify resources using the [Kubernetes operator](https://github.com/newrelic/newrelic-kubernetes-operator).'
 tileShorthand:
-  title: 'Set up New Relic using the Kubernetes operator'
-  description: 'Learn how to provision New Relic resources using the Kubernetes operator'
+  title: 'Set up Simplify using the Kubernetes operator'
+  description: 'Learn how to provision Simplify resources using the Kubernetes operator'
 resources:
-  - title: 'New Relic Kubernetes operator'
+  - title: 'Simplify Kubernetes operator'
     url: https://github.com/newrelic/newrelic-kubernetes-operator
-  - title: 'New Relic documentation'
+  - title: 'Simplify documentation'
     url: https://docs.newrelic.com
   - title: 'Kubernetes documentation'
     url: https://kubernetes.io/docs/home/
@@ -22,19 +22,19 @@ tags:
 
 <Intro>
 
-[Kubernetes](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications. You can use it to provision all kinds of infrastructure and services, including New Relic entities.
+[Kubernetes](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications. You can use it to provision all kinds of infrastructure and services, including Simplify entities.
 
-In this guide you'll learn how to set up New Relic for the first time with the official [New Relic Kubernetes operator](https://github.com/newrelic/newrelic-kubernetes-operator). More specifically, you'll provision an alert policy with NRQL conditions in your New Relic account using Kubernetes.
+In this guide you'll learn how to set up Simplify for the first time with the official [Simplify Kubernetes operator](https://github.com/newrelic/newrelic-kubernetes-operator). More specifically, you'll provision an alert policy with NRQL conditions in your Simplify account using Kubernetes.
 
 </Intro>
 
 ## Before you begin
 
 This walkthrough assumes you’ve already deployed a Kubernetes cluster. You could even create a local cluster on your machine with [`kind`](https://kind.sigs.k8s.io/).
-To use this guide, you should have some basic knowledge of both New Relic and Kubernetes. To complete the full exercise, you’ll need to:
+To use this guide, you should have some basic knowledge of both Simplify and Kubernetes. To complete the full exercise, you’ll need to:
 
-- Deploy a New Relic agent if you haven't done so yet. [Install New Relic](https://docs.newrelic.com/docs/agents/manage-apm-agents/installation/install-agent) for your application.
-- [Install `kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/) and point it at the correct cluster; this determines the cluster where you’ll install the New Relic operator.
+- Deploy a Simplify agent if you haven't done so yet. [Install Simplify](https://docs.newrelic.com/docs/agents/manage-apm-agents/installation/install-agent) for your application.
+- [Install `kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/) and point it at the correct cluster; this determines the cluster where you’ll install the Simplify operator.
 - [Install `kustomize`](https://kubernetes-sigs.github.io/kustomize/installation/).
 
 <Steps>
@@ -101,13 +101,13 @@ If your output is similar to the example shown, you’re ready for the next step
 
 ## Creating your first alert policy
 
-To kick things off, start small. First, create an alert policy with the minimum required configuration, then add a NRQL alert condition to the policy, which will add the condition to the policy in New Relic.
+To kick things off, start small. First, create an alert policy with the minimum required configuration, then add a NRQL alert condition to the policy, which will add the condition to the policy in Simplify.
 A minimal alert policy configuration is represented in the code below. For the sake of this walkthrough, name this file `new_relic_alert_policy.yaml`.
 
 <small>
   <em>
     <strong>Note</strong>: For help locating your personal API key, check out
-    New Relic's{' '}
+    Simplify's{' '}
     <a href="https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#">
       personal API key documentation
     </a>
@@ -121,8 +121,8 @@ kind: AlertsPolicy
 metadata:
   name: my-policy
 spec:
-  account_id: <your New Relic account ID>
-  api_key: <your New Relic personal API key>
+  account_id: <your Simplify account ID>
+  api_key: <your Simplify personal API key>
   name: 'Alert Policy Created With k8s' # Feel free to rename
   region: 'us'
 ```
@@ -169,8 +169,8 @@ kind: AlertsPolicy
 metadata:
   name: my-policy
 spec:
-  account_id: <your New Relic account ID>
-  api_key: <your New Relic personal API key>
+  account_id: <your Simplify account ID>
+  api_key: <your Simplify personal API key>
   name: 'Alert Policy Created With k8s' # Feel free to rename
   region: 'us'
 
@@ -210,8 +210,8 @@ To finish things off, you'll create and add an alert channel to your alert polic
 
 We have a Kubernetes test cluster ready for you in 2 minutes. By following this on-line tutorial, you will learn how to:
 
-- Deploy the New Relic agent in a Kubernetes environment
-- Use the New Relic Kubernetes operator
+- Deploy the Simplify agent in a Kubernetes environment
+- Use the Simplify Kubernetes operator
 
 **Some tips to use the on-line tutorial window:**
 
@@ -242,6 +242,6 @@ please check your browser settings.
 
 ## What’s next?
 
-Nice work — now you can manage your New Relic alert policies and NRQL alert conditions with code that integrates seamlessly within your Kubernetes workflow. This provides the ability to configure and manage your alerts with a domain-specific pattern, providing consistency and maintainability. You also gain the benefits of code reviews for any potential changes moving forward.
+Nice work — now you can manage your Simplify alert policies and NRQL alert conditions with code that integrates seamlessly within your Kubernetes workflow. This provides the ability to configure and manage your alerts with a domain-specific pattern, providing consistency and maintainability. You also gain the benefits of code reviews for any potential changes moving forward.
 As you and your team move forward, you might need to adjust some of the configuration values to better fit your needs.
-The New Relic Kubernetes Operator is just one of several tools in the New Relic Developer Toolkit aimed at facilitating observability as code.
+The Simplify Kubernetes Operator is just one of several tools in the Simplify Developer Toolkit aimed at facilitating observability as code.

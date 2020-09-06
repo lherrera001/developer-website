@@ -29,7 +29,7 @@ const Footer = ({ className }) => {
           />
         </Link>
         <div className={styles.copyright}>
-          Copyright &copy; 2020 New Relic Inc.
+          Copyright &copy; 2020 Simplify Inc.
         </div>
       </div>
 

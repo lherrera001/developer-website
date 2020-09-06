@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Simplify',
     description:
-      'Do more on our platform and make New Relic your own with APIs, SDKs, code snippets, tutorials, and more developer tools.',
+      'Do more on our platform and make Simplify your own with APIs, SDKs, code snippets, tutorials, and more developer tools.',
     author: 'None',
     repository: 'https://github.com/herrera-luis/developer-website',
     siteUrl: 'https://developer.newrelic.com',

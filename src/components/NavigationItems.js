@@ -13,14 +13,16 @@ import CollectDataIcon from './CollectDataIcon';
 import { useLocation, useMatch } from '@reach/router';
 
 const iconLibrary = {
-  'Collect data': 'collectData',
-  'Build apps': 'buildApps',
+  'Learning path': 'collectData',
+  'Add': 'buildApps',
   'Automate workflows': 'automation',
-  'Explore docs': 'developerDocs',
-  'Developer events': 'event',
-  'Developer champions': 'developerChampions',
-  Podcasts: 'podcasts',
-  'Try our APIs': 'tryOurAPIs',
+  'Documentation': 'developerDocs',
+  'Team and squads': 'event',
+  'Users': 'developerChampions',
+  'Repositories': 'buildApps',
+  'APIs': 'tryOurAPIs',
+  'Baseline projects': 'developerDocs',
+  'Libraries': 'buildApps'
 };
 
 const getHighlightedText = (text, highlight) => {
@@ -121,7 +123,7 @@ const NavItem = ({ page, depthLevel, searchTerm, filteredPageNames }) => {
     'Component library',
     'Explore docs',
     'Try our APIs',
-    'New Relic One CLI',
+    'Simplify One CLI',
   ].includes(page.displayName);
   const headerIcon = depthLevel === 0 && <NavIcon page={page} />;
   const display = filteredPageNames

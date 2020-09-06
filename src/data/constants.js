@@ -1,4 +1,4 @@
-export const githubBaseUrl = 'https://github.com/newrelic/developer-website';
+export const githubBaseUrl = 'https://github.com/herrera-luis/developer-website';
 
 export const SPLITS = {
   CONTRIBUTE_BUTTONS: 'developer-website_right-rail-buttons',

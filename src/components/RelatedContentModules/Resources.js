@@ -10,6 +10,7 @@ const SITE_TAGS = {
   developer: 'https://developer.newrelic.com',
   'open source': 'https://opensource.newrelic.com',
   docs: 'https://docs.newrelic.com',
+  learn: 'https://learn.newrelic.com',
   github: 'https://github.com',
   terraform: 'https://terraform.io',
   kubernetes: 'https://kubernetes.io',

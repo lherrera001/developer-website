@@ -1,16 +1,16 @@
 ---
 path: '/automate-workflows/get-started-terraform'
 duration: '20 min'
-title: 'Set up New Relic using Terraform'
+title: 'Set up Simplify using Terraform'
 template: 'GuideTemplate'
-description: 'Learn how to provision New Relic resources using [Terraform](https://www.terraform.io/).'
+description: 'Learn how to provision Simplify resources using [Terraform](https://www.terraform.io/).'
 tileShorthand:
-  title: 'Set up New Relic using Terraform'
-  description: 'Learn how to provision New Relic resources using Terraform'
+  title: 'Set up Simplify using Terraform'
+  description: 'Learn how to provision Simplify resources using Terraform'
 resources:
-  - title: 'Terraform New Relic Provider'
+  - title: 'Terraform Simplify Provider'
     url: 'https://github.com/newrelic/terraform-provider-newrelic'
-  - title: 'New Relic documentation'
+  - title: 'Simplify documentation'
     url: https://docs.newrelic.com
   - title: 'Terraform documentation'
     url: https://terraform.io/docs/index.html
@@ -21,9 +21,9 @@ tags:
 
 <Intro>
 
-[Terraform](https://www.terraform.io/) is a popular infrastructure as code software tool by HashiCorp. You can use it to provision all kind of infrastructure and services, including New Relic entities.
+[Terraform](https://www.terraform.io/) is a popular infrastructure as code software tool by HashiCorp. You can use it to provision all kind of infrastructure and services, including Simplify entities.
 
-In this guide you'll learn how to set up New Relic for the first time with [Terraform](https://www.terraform.io/). More specifically, you are going to provision an alert policy with notifications in your New Relic account using Terraform.
+In this guide you'll learn how to set up Simplify for the first time with [Terraform](https://www.terraform.io/). More specifically, you are going to provision an alert policy with notifications in your Simplify account using Terraform.
 
 <Video id="vifxeilp2h" type="wistia" />
 
@@ -31,9 +31,9 @@ In this guide you'll learn how to set up New Relic for the first time with [Terr
 
 ## Before you begin
 
-To use this guide, you should have some basic knowledge of both New Relic and Terraform.
+To use this guide, you should have some basic knowledge of both Simplify and Terraform.
 
-- If you haven't deployed a New Relic open source agent yet, [install New Relic](https://docs.newrelic.com/docs/agents/manage-apm-agents/installation/install-agent) for your application.
+- If you haven't deployed a Simplify open source agent yet, [install Simplify](https://docs.newrelic.com/docs/agents/manage-apm-agents/installation/install-agent) for your application.
 - [Install Terraform CLI](https://www.terraform.io/intro/getting-started/install.html).
 
 <Steps>
@@ -47,10 +47,10 @@ You can set the environment variables in your `.bash_profile` or `.bashrc` file.
 
 Set the following environment variables:
 
-- Set your [New Relic Personal API key](https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#personal-api-key) with the `NEW_RELIC_API_KEY` environment variable. Most Personal API keys begin with the prefix `NRAK-`.
-- Set your [New Relic Admin API key](https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#admin) with the `NEW_RELIC_ADMIN_API_KEY` environment variable. Most Admin API keys begin with the prefix `NRAA-`.
-- Set your [New Relic Account ID](https://docs.newrelic.com/docs/accounts/install-new-relic/account-setup/account-id) with the `NEW_RELIC_ACCOUNT_ID` environment variable.
-- Set your New Relic [region](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/our-eu-us-region-data-centers#verifying-account) with the `NEW_RELIC_REGION` environment variable. Your region is `US` if your account settings page is located at `rpm.newrelic.com`, and `EU` if your account is located at `rpm.eu.newrelic.com`.
+- Set your [Simplify Personal API key](https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#personal-api-key) with the `NEW_RELIC_API_KEY` environment variable. Most Personal API keys begin with the prefix `NRAK-`.
+- Set your [Simplify Admin API key](https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#admin) with the `NEW_RELIC_ADMIN_API_KEY` environment variable. Most Admin API keys begin with the prefix `NRAA-`.
+- Set your [Simplify Account ID](https://docs.newrelic.com/docs/accounts/install-new-relic/account-setup/account-id) with the `NEW_RELIC_ACCOUNT_ID` environment variable.
+- Set your Simplify [region](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/our-eu-us-region-data-centers#verifying-account) with the `NEW_RELIC_REGION` environment variable. Your region is `US` if your account settings page is located at `rpm.newrelic.com`, and `EU` if your account is located at `rpm.eu.newrelic.com`.
 
 ```bash lineNumbers=false
 # Add this to your .bash_profile
@@ -67,9 +67,9 @@ $ NEW_RELIC_API_KEY=NRAK-... terraform apply
 
 ## Start with a provider configuration
 
-To connect Terraform with New Relic, you need to set New Relic as a provider in your Terraform configuration file, so that Terraform can create and manage New Relic resources in your account.
+To connect Terraform with Simplify, you need to set Simplify as a provider in your Terraform configuration file, so that Terraform can create and manage Simplify resources in your account.
 
-To set New Relic as a provider, create a Terraform configuration file (`main.tf`). This code sets `newrelic` as the Terraform provider and provisions an empty [alert policy](/docs/alerts/new-relic-alerts/configuring-alert-policies/create-edit-or-find-alert-policy) as the resource.
+To set Simplify as a provider, create a Terraform configuration file (`main.tf`). This code sets `newrelic` as the Terraform provider and provisions an empty [alert policy](/docs/alerts/new-relic-alerts/configuring-alert-policies/create-edit-or-find-alert-policy) as the resource.
 
 ```hcl lineNumbers=false
 provider "newrelic" {}
@@ -84,7 +84,7 @@ resource "newrelic_alert_policy" "alert_policy_name" {
 
 ## Initialize and test your setup
 
-After adding New Relic as a provider, [initialize](https://www.terraform.io/docs/commands/init.html) the working directory from the command line using `terraform init`.
+After adding Simplify as a provider, [initialize](https://www.terraform.io/docs/commands/init.html) the working directory from the command line using `terraform init`.
 
 Once you've successfully initialized the working directory, test Terraform's [execution plan](https://www.terraform.io/docs/commands/plan.html) using `terraform plan` to confirm that you've the right setup.
 
@@ -112,7 +112,7 @@ provider "newrelic" {}
 
 # Data Source
 data "newrelic_entity" "app_name" {
-  name    = "my-app" # This must be an exact match of your app name in New Relic (case sensitive)
+  name    = "my-app" # This must be an exact match of your app name in Simplify (case sensitive)
   domain  = "APM"
   type    = "APPLICATION"
 }
@@ -198,11 +198,11 @@ resource "newrelic_alert_policy_channel" "alert_policy_email" {
 
 ## Apply your Terraform configuration
 
-The last step is provisioning the resources you've configured in `main.tf`, so that the alert policy is enabled in your New Relic account for your application.
+The last step is provisioning the resources you've configured in `main.tf`, so that the alert policy is enabled in your Simplify account for your application.
 
-To [apply](https://www.terraform.io/docs/commands/apply.html) the Terraform configuration and provision the resources in your New Relic account, run `terraform apply`.
+To [apply](https://www.terraform.io/docs/commands/apply.html) the Terraform configuration and provision the resources in your Simplify account, run `terraform apply`.
 
-Answer `yes` when prompted to apply the changes. Once the `apply` process is complete, you should see the new alert policy you've provisioned using Terraform, and its alert conditions, in your New Relic account.
+Answer `yes` when prompted to apply the changes. Once the `apply` process is complete, you should see the new alert policy you've provisioned using Terraform, and its alert conditions, in your Simplify account.
 
 You can run `terraform apply` every time you need to make changes to your configuration. To eliminate the resources you've provisioned, run [`terraform destroy`](https://www.terraform.io/docs/commands/destroy.html).
 
@@ -212,7 +212,7 @@ You can run `terraform apply` every time you need to make changes to your config
 
 ## Optional: Use the `apm` module for faster configuration
 
-In the Terraform Registry you can find [our `apm` module](https://registry.terraform.io/modules/newrelic/apm/newrelic/0.0.4), which simplifies Terraform's configuration. `apm` creates an alert policy, a [Synthetics monitor](https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/using-monitors/add-edit-monitors), and several alert conditions for a given application reporting data into New Relic.
+In the Terraform Registry you can find [our `apm` module](https://registry.terraform.io/modules/newrelic/apm/newrelic/0.0.4), which simplifies Terraform's configuration. `apm` creates an alert policy, a [Synthetics monitor](https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/using-monitors/add-edit-monitors), and several alert conditions for a given application reporting data into Simplify.
 
 To use our `apm` module with Terraform:
 

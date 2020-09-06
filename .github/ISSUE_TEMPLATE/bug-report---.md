@@ -9,7 +9,7 @@ assignees: ''
 <!-- Please fill out each section below, otherwise, your issue will be closed. This info allows Gatsby maintainers to diagnose (and fix!) your issue as quickly as possible.
 
 ** Check for existing issues**
- Before opening a new issue, please search existing issues: https://github.com/newrelic/developer-website/issues -->
+ Before opening a new issue, please search existing issues: https://github.com/herrera-luis/developer-website/issues -->
 
 ### Description
 

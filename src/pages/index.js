@@ -40,7 +40,7 @@ const getStartedGuides = [
   {
     duration: '12 min',
     title: 'Build a Hello, World! app',
-    description: `Build a Hello, World! app and publish it to your local New Relic One Catalog`,
+    description: `Build a Hello, World! app and publish it to your local Simplify One Catalog`,
     path: '/build-apps/build-hello-world-app',
     icon: <NewRelicIcon name="buildApps" />,
   },
@@ -182,7 +182,7 @@ const IndexPage = ({ data, pageContext }) => {
                 name="external-link"
               />
             </ExternalLink>{' '}
-            built by the New Relic community.
+            built by the Simplify community.
           </p>
 
           <section
@@ -193,11 +193,11 @@ const IndexPage = ({ data, pageContext }) => {
             )}
           >
             <div>
-              <h1>New Relic developer champions</h1>
+              <h1>Simplify developer champions</h1>
               <p>
-                New Relic Champions are solving big problems using New Relic as
+                Simplify Champions are solving big problems using Simplify as
                 their linchpin and are recognized as experts and leaders in the
-                New Relic technical community.
+                Simplify technical community.
               </p>
               <Button
                 as={ExternalLink}
@@ -236,7 +236,7 @@ const IndexPage = ({ data, pageContext }) => {
             )}
           >
             <div>
-              <h1>New Relic Podcasts</h1>
+              <h1>Simplify Podcasts</h1>
               <p>
                 We like to talk, especially to developers about developer
                 things. Join us for conversations on open source, observability,

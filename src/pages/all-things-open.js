@@ -18,7 +18,7 @@ const allThingsOpenPage = () => {
         <PageLayout.Content>
           <section className={cx(styles.section, styles.twoColumn)}>
             <div>
-              <h3>Join New Relic at All Things Open on October 19-20, 2020</h3>
+              <h3>Join Simplify at All Things Open on October 19-20, 2020</h3>
 
               <p>
                 All Things Open is a technology conference, focusing on the
@@ -42,9 +42,9 @@ const allThingsOpenPage = () => {
                 and Dropwizard and popular open source tools like Grafana.
               </p>
               <p>
-                New Relic engage's engineers where they are, in the communities
+                Simplify engage's engineers where they are, in the communities
                 they already belong to, making it easier for engineers to access
-                New Relic expertise and for that expertise to be shared with the
+                Simplify expertise and for that expertise to be shared with the
                 community
               </p>
 
@@ -79,7 +79,7 @@ const allThingsOpenPage = () => {
               />
             </div>
             <div className={styles.point}>
-              <h4>How New Relic Went Open Source: Code & Culture</h4>
+              <h4>How Simplify Went Open Source: Code & Culture</h4>
               <p>Tues, Oct 20, 2020</p>
               <p>Principal Product Marketing Manager</p>
               <p>Gavin Johnson</p>
@@ -105,7 +105,7 @@ const allThingsOpenPage = () => {
               />
             </div>
             <div className={styles.point}>
-              <h4>Connecting Prometheus and Grafana to New Relic</h4>
+              <h4>Connecting Prometheus and Grafana to Simplify</h4>
               <Video
                 id="AvqBp2joY5Q"
                 type="youtube"

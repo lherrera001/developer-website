@@ -1,16 +1,16 @@
 ---
 path: '/automate-workflows/kubernetes-helm-deployment'
 duration: '20 min'
-title: 'Set up New Relic using Helm charts'
+title: 'Set up Simplify using Helm charts'
 template: 'GuideTemplate'
-description: 'Learn how to deploy New Relic using [Helm charts](https://github.com/newrelic/helm-charts).'
+description: 'Learn how to deploy Simplify using [Helm charts](https://github.com/newrelic/helm-charts).'
 tileShorthand:
-  title: 'Set up New Relic using Helm charts'
-  description: 'Learn how to set up New Relic using Helm charts'
+  title: 'Set up Simplify using Helm charts'
+  description: 'Learn how to set up Simplify using Helm charts'
 resources:
-  - title: 'New Relic Helm charts'
+  - title: 'Simplify Helm charts'
     url: https://github.com/newrelic/helm-charts
-  - title: 'New Relic documentation'
+  - title: 'Simplify documentation'
     url: https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/install-kubernetes-integration-using-helm
   - title: 'What is Helm?'
     url: https://helm.sh/
@@ -20,7 +20,7 @@ resources:
 
 [Helm](https://helm.sh/) is like a package manager for Kubernetes. Helm charts help define, install and upgrade your Kubernetes applications.
 
-In this guide you'll learn how to set up New Relic with the official [New Relic Helm charts](https://github.com/newrelic/helm-charts). 
+In this guide you'll learn how to set up Simplify with the official [Simplify Helm charts](https://github.com/newrelic/helm-charts). 
 The Helm charts will deploy everything you need to get full observability of your Kubernetes environment.
 
 </Intro>
@@ -29,17 +29,17 @@ The Helm charts will deploy everything you need to get full observability of you
 
 This walk through assumes you’ve already deployed a Kubernetes cluster. Or you can simply use our test environment, by following the interactive tutorial at the bottom of this page.
 
-To use this guide, you should have some basic knowledge of both New Relic and Kubernetes. To complete the full exercise, you’ll need to:
+To use this guide, you should have some basic knowledge of both Simplify and Kubernetes. To complete the full exercise, you’ll need to:
 
-- [Get your New Relic license key](https://docs.newrelic.com/docs/accounts/accounts-billing/account-setup/new-relic-license-key)
+- [Get your Simplify license key](https://docs.newrelic.com/docs/accounts/accounts-billing/account-setup/new-relic-license-key)
 - Install [Helm 3](https://helm.sh/docs/intro/install/)
 
 <Steps>
 <Step>
 
-## Adding the New Relic Helm repository
+## Adding the Simplify Helm repository
 
-First, add the official [New Relic Helm repository](https://github.com/newrelic/helm-charts)
+First, add the official [Simplify Helm repository](https://github.com/newrelic/helm-charts)
 
 ```bash lineNumbers=false
 helm repo add newrelic https://helm-charts.newrelic.com
@@ -52,9 +52,9 @@ You should see something similar to the following:
 </Step>
 <Step>
 
-## Install the New Relic Helm chart
+## Install the Simplify Helm chart
 
-Follow the instructions to [get your New Relic license key](https://docs.newrelic.com/docs/accounts/accounts-billing/account-setup/new-relic-license-key)
+Follow the instructions to [get your Simplify license key](https://docs.newrelic.com/docs/accounts/accounts-billing/account-setup/new-relic-license-key)
 
 Replace `YOUR_NEW_RELIC_LICENSE_KEY` and `CLUSTER_NAME` before running the following command:
 ```bash lineNumbers=false
@@ -78,7 +78,7 @@ REVISION: 1
 TEST SUITE: None
 ```
 
-Check if the New Relic agents have been deployed:
+Check if the Simplify agents have been deployed:
 ```no-highlighting lineNumbers=false
 kubectl get daemonsets,pods
 ```
@@ -100,9 +100,9 @@ pod/newrelic-bundle-nri-prometheus-569689b7cb-pnddg           1/1     Running   
 </Step>
 <Step>
 
-## Use the New Relic Kubernetes cluster explorer
+## Use the Simplify Kubernetes cluster explorer
 
-Open the [Kubernetes cluster explorer in New Relic One](https://one.newrelic.com/launcher/k8s-cluster-explorer-nerdlet.cluster-explorer-launcher?pane=eyJuZXJkbGV0SWQiOiJrOHMtY2x1c3Rlci1leHBsb3Jlci1uZXJkbGV0Lms4cy1jbHVzdGVyLWxpc3QifQ==)
+Open the [Kubernetes cluster explorer in Simplify One](https://one.newrelic.com/launcher/k8s-cluster-explorer-nerdlet.cluster-explorer-launcher?pane=eyJuZXJkbGV0SWQiOiJrOHMtY2x1c3Rlci1leHBsb3Jlci1uZXJkbGV0Lms4cy1jbHVzdGVyLWxpc3QifQ==)
 
 You should see something like:
 
@@ -115,7 +115,7 @@ Want to know more? [Learn how to navigate the Kubernetes cluster explorer](https
 
 ## Try it out now
 
-We can have a Kubernetes test cluster ready for you in a few minutes. By following this on-line tutorial, you will learn how to deploy the New Relic Helm charts.
+We can have a Kubernetes test cluster ready for you in a few minutes. By following this on-line tutorial, you will learn how to deploy the Simplify Helm charts.
 
 ### Some tips to use the on-line tutorial window:
 
@@ -146,5 +146,5 @@ please check your browser settings.
 
 ## What’s next?
 
-Nice work — now you can easily deploy New Relic with the official New Relic Helm charts and you can start using the Kubernetes cluster explorer.
+Nice work — now you can easily deploy Simplify with the official Simplify Helm charts and you can start using the Kubernetes cluster explorer.
 The Kubernetes cluster explorer brings full observability to your k8s environment, so you can troubleshoot faster by correlating logs, metrics, events and traces all within the same user experience.

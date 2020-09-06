@@ -1,9 +1,9 @@
 ---
 path: '/collect-data/custom-events'
 duration: '5 min'
-title: 'Create custom New Relic events'
+title: 'Create custom Simplify events'
 template: 'GuideTemplate'
-description: 'Create custom New Relic events'
+description: 'Create custom Simplify events'
 tileShorthand:
   title: 'Create custom events'
   description: 'Define, visualize, and get alerts on the data you want using custom events'
@@ -39,7 +39,7 @@ at_exit do
     payload[:errors] = errors
   end
 
-  # Send the errors to New Relic as a custom event
+  # Send the errors to Simplify as a custom event
   insights_url = URI.parse("https://insights-collector.newrelic.com/v1/accounts/YOUR_ACCOUNT_ID/events")
   headers = { "x-insert-key" => "YOUR_API_KEY", "content-type" => "application/json" }
 

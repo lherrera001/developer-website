@@ -22,7 +22,7 @@ tags:
 
 <Intro>
 
-NerdGraph is New Relic's [GraphQL](https://graphql.org/) API. It allows you to get all the information you need in a single request.
+NerdGraph is Simplify's [GraphQL](https://graphql.org/) API. It allows you to get all the information you need in a single request.
 
 With NerdGraph API Explorer you don't need to know the query format: using the Query Builder you can browse our entire graph and compose queries just by selecting the items you want and filling out their required values.
 
@@ -32,9 +32,9 @@ With NerdGraph API Explorer you don't need to know the query format: using the Q
 
 ## Before you begin
 
-Go to [api.newrelic.com/graphiql](https://api.newrelic.com/graphiql) and log in using your New Relic user ID and password: the NerdGraph API Explorer loads up.
+Go to [api.newrelic.com/graphiql](https://api.newrelic.com/graphiql) and log in using your Simplify user ID and password: the NerdGraph API Explorer loads up.
 
-Make sure you have a valid New Relic API key. You can create one directly from the NerdGraph API Explorer.
+Make sure you have a valid Simplify API key. You can create one directly from the NerdGraph API Explorer.
 
 ![Create a NerdGraph API key](../../images/graphql-guide/create-account.png)
 
@@ -43,7 +43,7 @@ Make sure you have a valid New Relic API key. You can create one directly from t
 
 ## Build a query to retrieve your name
 
-Time for your first NerdGraph query. Search for your name in the New Relic database:
+Time for your first NerdGraph query. Search for your name in the Simplify database:
 
 1. Erase everything in the query editor.
 2. Select the following fields in the query explorer in this order: `actor`, `user`, `name`.
@@ -120,7 +120,7 @@ Unlike REST, GraphQL APIs like NerdGraph can return partial responses. For examp
 Let's say that you've built a NerdGraph query you're happy with and you want to test it elsewhere. To capture code-ready queries and mutations:
 
 1. Select the **Tools** menu.
-2. Copy the query as a curl call or as a [New Relic CLI](...) command.
+2. Copy the query as a curl call or as a [Simplify CLI](...) command.
 
 ![Tools menu](../../images/graphql-guide/tools-menu.png)
 
@@ -131,7 +131,7 @@ curl https://api.newrelic.com/graphql \
   -H 'API-Key: API_KEY_REDACTED' \
   --data-binary '{"query":"{\n  actor {\n    user {\n      name\n      email\n    }\n    account(id: 12345678)\n  }\n}\n", "variables":""}'
 
-# New Relic CLI version
+# Simplify CLI version
 newrelic nerdgraph query '{
   actor {
     user {

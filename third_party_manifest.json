@@ -1,7 +1,7 @@
 {
   "lastUpdated": "Fri Jun 26 2020 16:16:30 GMT-0700 (Pacific Daylight Time)",
   "projectName": "developer-website",
-  "projectUrl": "https://github.com/newrelic/developer-website",
+  "projectUrl": "https://github.com/herrera-luis/developer-website",
   "includeDev": true,
   "dependencies": {
     "@mdx-js/mdx@1.6.4": {
@@ -264,7 +264,7 @@
       "licenseFile": "node_modules/@newrelic/eslint-plugin-newrelic/LICENSE",
       "licenseUrl": "https://github.com/NewRelic/eslint-plugin-newrelic/blob/v0.3.0/LICENSE",
       "licenseTextSource": "file",
-      "publisher": "New Relic"
+      "publisher": "Simplify"
     },
     "@testing-library/react@10.0.4": {
       "name": "@testing-library/react",

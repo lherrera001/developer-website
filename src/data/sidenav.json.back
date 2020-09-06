@@ -12,7 +12,7 @@
         "url": "/collect-data/custom-attributes"
       },
       {
-        "displayName": "Create custom New Relic events",
+        "displayName": "Create custom Simplify events",
         "url": "/collect-data/custom-events"
       },
       {
@@ -30,19 +30,19 @@
     "url": "/automate-workflows",
     "children": [
       {
-        "displayName": "Get started with the New Relic CLI",
+        "displayName": "Get started with the Simplify CLI",
         "url": "/automate-workflows/get-started-new-relic-cli"
       },
       {
-        "displayName": "Set up New Relic using Terraform",
+        "displayName": "Set up Simplify using Terraform",
         "url": "/automate-workflows/get-started-terraform"
       },
       {
-        "displayName": "Set up New Relic using the Kubernetes operator",
+        "displayName": "Set up Simplify using the Kubernetes operator",
         "url": "/automate-workflows/get-started-kubernetes"
       },
       {
-        "displayName": "Set up New Relic using Helm charts",
+        "displayName": "Set up Simplify using Helm charts",
         "url": "/automate-workflows/kubernetes-helm-deployment"
       },
       {
@@ -88,7 +88,7 @@
         "url": "/build-apps/add-nerdgraphquery-guide"
       },
       {
-        "displayName": "Add tables to your New Relic One application",
+        "displayName": "Add tables to your Simplify One application",
         "url": "/build-apps/howto-use-nrone-table-components"
       },
       {
@@ -105,7 +105,7 @@
     "displayName": "Try our APIs",
     "children": [
       {
-        "displayName": "New Relic API Explorer",
+        "displayName": "Simplify API Explorer",
         "url": "https://rpm.newrelic.com/api/explore"
       },
       {
@@ -118,7 +118,7 @@
     "displayName": "Explore docs",
     "children": [
       {
-        "displayName": "New Relic One CLI",
+        "displayName": "Simplify One CLI",
         "url": "/explore-docs/nr1-cli",
         "children": [
           {
@@ -148,7 +148,7 @@
         ]
       },
       {
-        "displayName": "New Relic CLI",
+        "displayName": "Simplify CLI",
         "url": "/explore-docs/newrelic-cli"
       },
       {

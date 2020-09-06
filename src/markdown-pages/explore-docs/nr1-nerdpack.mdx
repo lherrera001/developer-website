@@ -1,11 +1,11 @@
 ---
 path: '/explore-docs/nr1-nerdpack'
-title: 'New Relic One CLI Nerdpack commands'
+title: 'Simplify One CLI Nerdpack commands'
 template: 'GuideTemplate'
-description: 'An overview of the CLI commands you can use to set up your New Relic One Nerdpacks.'
+description: 'An overview of the CLI commands you can use to set up your Simplify One Nerdpacks.'
 tileShorthand:
   title: 'Nerdpack CLI commands'
-  description: 'Set up your Nerdpacks with the New Relic One CLI.'
+  description: 'Set up your Nerdpacks with the Simplify One CLI.'
 ---
 
 <Intro>
@@ -21,7 +21,7 @@ To set up your Nerdpacks, use the commands below. You can click any command to s
 | [`nr1 nerdpack:clone`](#nr1-nerdpackclone)       | Clones a Nerdpack from a git repository. |
 | [`nr1 nerdpack:serve`](#nr1-nerdpackserve)       | Serves your Nerdpack for testing and development purposes. |
 | [`nr1 nerdpack:uuid`](#nr1-nerdpackuuid)         | Shows or regenerates the UUID of a Nerdpack.  |
-| [`nr1 nerdpack:publish`](#nr1-nerdpackpublish)   | Publishes your Nerdpack to New Relic. |
+| [`nr1 nerdpack:publish`](#nr1-nerdpackpublish)   | Publishes your Nerdpack to Simplify. |
 | [`nr1 nerdpack:deploy`](#nr1-nerdpackdeploy)     | Deploys a Nerdpack version to a specific channel. |
 | [`nr1 nerdpack:undeploy`](#nr1-nerdpackundeploy) | Undeploys a Nerdpack version from a specific channel. |
 
@@ -56,7 +56,7 @@ Duplicates an existing Nerdpack onto your local computer. You can clone an open 
 
 ## `nr1 nerdpack:serve`
 ### Serve your Nerdpack locally
-Launches a server with your Nerdpack locally on the [New Relic One platform](https://one.newrelic.com/?nerdpacks=local), where it can be tested live. 
+Launches a server with your Nerdpack locally on the [Simplify One platform](https://one.newrelic.com/?nerdpacks=local), where it can be tested live. 
 
 To learn more about working with apps locally, see our guide on how to [serve, publish, and deploy documentation](/build-apps/publish-deploy/).
 
@@ -96,14 +96,14 @@ For more details, see [our GitHub workshop](https://github.com/newrelic/nr1-work
 
 ## `nr1 nerdpack:publish`
 ### Publish your Nerdpack
-Publishes your Nerdpack to New Relic. 
+Publishes your Nerdpack to Simplify. 
 
 Please note:
 * If no additional parameters are passed in, this command will automatically deploy the Nerdpack onto the DEV channel. 
 * If you want to specify your own list of deploy channels, add the `--channel` option. For example, `$ nr1 nerdpack:publish --channel BETA --channel STABLE`.
 * If you want to disable this behavior, add `-D` or `--skip-deploy` to the command. Then, you can use `nr1 nerdpack:deploy` to perform a deploy manually.
 
-For more on publishing and deploying, see [Deploy to New Relic One](/build-tools/new-relic-one-applications/publish-deploy).
+For more on publishing and deploying, see [Deploy to Simplify One](/build-tools/new-relic-one-applications/publish-deploy).
 
 ### Usage
 `$ nr1 nerdpack:publish` 
@@ -129,7 +129,7 @@ For more on publishing and deploying, see [Deploy to New Relic One](/build-tools
 ### Deploy your Nerdpack to a channel
 Deploys a Nerdpack version to a specific channel (DEV, BETA, or STABLE). A channel can only have one Nerdpack version deployed to it at one time. If a channel has an existing Nerdpack associated with it, deploying a new Nerdpack version to that channel will undeploy the previous one. 
 
-For more on publishing and deploying, see [Deploy to New Relic One](/build-tools/new-relic-one-applications/publish-deploy).
+For more on publishing and deploying, see [Deploy to Simplify One](/build-tools/new-relic-one-applications/publish-deploy).
 
 ### Usage
 `$ nr1 nerdpack:deploy OPTION` 

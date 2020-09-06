@@ -19,14 +19,14 @@ const KubeConPage = () => {
           <section className={cx(styles.section, styles.twoColumn)}>
             <div>
               <h3>
-                New Relic welcomes you at <br />
+                Simplify welcomes you at <br />
                 Virtual Kubecon and CloudNativeCon Europe 2020!
               </h3>
               <p>
-                Learn more about the New Relic One platform, the only
+                Learn more about the Simplify One platform, the only
                 observability platform that provides open, connected and
                 programmable observability for cloud-native environments. Join
-                us to dive into the New Relic One platform and our Kubernetes
+                us to dive into the Simplify One platform and our Kubernetes
                 cluster explorer.
               </p>
               <Button
@@ -50,7 +50,7 @@ const KubeConPage = () => {
           <section className={styles.section}>
             <h2>Attend one of our lightning talks</h2>
             <Important>
-              Go to the virtual expo tab, and find New Relic in Silver Hall B to
+              Go to the virtual expo tab, and find Simplify in Silver Hall B to
               attend a lightning talk.
             </Important>
           </section>
@@ -117,7 +117,7 @@ const KubeConPage = () => {
               />
             </div>
             <div className={styles.point}>
-              <h4>Connecting Prometheus and Grafana to New Relic</h4>
+              <h4>Connecting Prometheus and Grafana to Simplify</h4>
               <Video
                 id="AvqBp2joY5Q"
                 type="youtube"

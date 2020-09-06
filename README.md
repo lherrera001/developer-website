@@ -18,7 +18,7 @@ Your site is now running at `http://localhost:8000`!
 
 ### Dependencies
 
-Node v12 is used in this project as specified in [.nvmrc](https://github.com/newrelic/developer-website/blob/master/.nvmrc).
+Node v12 is used in this project as specified in [.nvmrc](https://github.com/herrera-luis/developer-website/blob/master/.nvmrc).
 
 ## 📝 Unit tests
 
@@ -27,18 +27,18 @@ have the tests automatically re-run, use `npm run test:watch`.
 
 ## 🌎 Community
 
-New Relic hosts and moderates an online forum where customers can interact with
-New Relic employees as well as other customers to get help and share best practices.
-If you're looking for configuration help or more information about New Relic's
-products, please visit the [New Relic Explorers Hub](https://discuss.newrelic.com/).
+Simplify hosts and moderates an online forum where customers can interact with
+Simplify employees as well as other customers to get help and share best practices.
+If you're looking for configuration help or more information about Simplify's
+products, please visit the [Simplify Explorers Hub](https://discuss.newrelic.com/).
 
-Like all official New Relic open source projects, there's a related
+Like all official Simplify open source projects, there's a related
 [Community topic](https://discuss.newrelic.com/t/developer-newrelic-com/108069)
-in the New Relic Explorers Hub.
+in the Simplify Explorers Hub.
 
 ## 🚧 Contributing
 
-We welcome contributions to the New Relic Developer Site. Please review our
+We welcome contributions to the Simplify Developer Site. Please review our
 [Contributors Guide](CONTRIBUTING.md) prior to submitting any code.
 
 ## 🚦Code of conduct
@@ -48,6 +48,6 @@ Please review and agree to our [Code of Conduct](CODE_OF_CONDUCT.md) prior to su
 ## 🐛 Issues / enhancement requests
 
 Please submit any issues or enhancement requests using one of our
-[Issue Templates](https://github.com/newrelic/developer-website/issues/new/choose).
+[Issue Templates](https://github.com/herrera-luis/developer-website/issues/new/choose).
 Please search for and review the existing open issues before submitting a new
 issue to prevent the submission of duplicate issues.

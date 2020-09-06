@@ -5,7 +5,7 @@ Add a short description about the purpose of this PR here.
 If there are links or steps needed to test this work, add them here.
 
 ## Related Issue(s) / Ticket(s)
-If there are any related [GitHub Issues](https://github.com/newrelic/developer-website/issues) or JIRA tickets, add links to them here.
+If there are any related [GitHub Issues](https://github.com/herrera-luis/developer-website/issues) or JIRA tickets, add links to them here.
 * [issue]()
 
 ## Screenshot(s)

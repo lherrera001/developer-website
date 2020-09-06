@@ -1,9 +1,9 @@
 ---
 path: '/build-apps/publish-deploy'
 duration: '30 min'
-title: 'Serve, publish, and deploy your New Relic One app'
+title: 'Serve, publish, and deploy your Simplify One app'
 template: 'GuideTemplate'
-description: 'Start sharing and using the custom New Relic One apps you build'
+description: 'Start sharing and using the custom Simplify One apps you build'
 tileShorthand:
   title: 'Publish and deploy apps'
   description: 'Start sharing the apps you build'
@@ -22,13 +22,13 @@ tags:
 
 <Intro>
 
-When you build a New Relic One app, chances are you'll want to share it with others in your organization. You might even want to share it broadly through our open source channel. But first, you probably want to try it out locally to make sure it's working properly.
+When you build a Simplify One app, chances are you'll want to share it with others in your organization. You might even want to share it broadly through our open source channel. But first, you probably want to try it out locally to make sure it's working properly.
 
 </Intro>
 
 ![apps in the catalog](../../images/build-an-app/apps_catalog.png)
 
-From the New Relic One **Apps** page, you can review available apps and subscribe to the ones you want for accounts you manage. The **Your apps** section shows launchers for New Relic apps, as well as any third-party apps that you subscribe to. The New Relic One catalog provides apps that you haven't subscribed to, some developed by New Relic engineers to provide visualizations we think you'll want, like Cloud Optimizer, which analyzes your cloud environment, or PageView Map, which uses Browser events to chart performance across geographies. Your apps in the catalog are created by third-party contributors and are submitted via [opensource.newrelic.com](https://opensource.newrelic.com). All are intended to help you visualize the data you need, the way you want it.
+From the Simplify One **Apps** page, you can review available apps and subscribe to the ones you want for accounts you manage. The **Your apps** section shows launchers for Simplify apps, as well as any third-party apps that you subscribe to. The Simplify One catalog provides apps that you haven't subscribed to, some developed by Simplify engineers to provide visualizations we think you'll want, like Cloud Optimizer, which analyzes your cloud environment, or PageView Map, which uses Browser events to chart performance across geographies. Your apps in the catalog are created by third-party contributors and are submitted via [opensource.newrelic.com](https://opensource.newrelic.com). All are intended to help you visualize the data you need, the way you want it.
 
 Here, you learn to:
 
@@ -42,13 +42,13 @@ Here, you learn to:
 
 This guide requires the following:
 
-- A New Relic One app or Nerdpack
-- New Relic One CLI
+- A Simplify One app or Nerdpack
+- Simplify One CLI
 - A Nerdpack manager role for publishing, deploying, and subscribing apps.
 
 ## Serve your app locally
 
-You can locally serve the app you create to New Relic One to test it out.
+You can locally serve the app you create to Simplify One to test it out.
 
 <Steps>
 
@@ -57,7 +57,7 @@ You can locally serve the app you create to New Relic One to test it out.
 1.  In the parent root folder of your Nerdpack, run `nr1 nerdpack:serve`.
 2.  Go to [one.newrelic.com/?nerdpacks=local](http://one.newrelic.com/?nerdpack=local). The `?nerdpacks=local` URL suffix will load any locally served Nerdpacks that are available.
 
-When you make a change to a locally served Nerdpack, New Relic One will automatically reload it.
+When you make a change to a locally served Nerdpack, Simplify One will automatically reload it.
 
 </Step>
 
@@ -74,13 +74,13 @@ Some metadata is added automatically when an app is published:
 
 ![app metadata in catalog](../../images/build-an-app/app_metadata.png)
 
-The New Relic One CLI enables you to provide the information and images you want to include with your application. Then it's a matter of kicking off a catalog command that validates the information and saves it to the catalog.
+The Simplify One CLI enables you to provide the information and images you want to include with your application. Then it's a matter of kicking off a catalog command that validates the information and saves it to the catalog.
 
 <Steps>
 
 <Step>
 
-Update the New Relic One CLI to ensure you're working with the latest version.
+Update the Simplify One CLI to ensure you're working with the latest version.
 
 ```
 nr1 update
@@ -92,7 +92,7 @@ nr1 update
 
 Add catalog metadata and screenshots.
 
-Run `nr1 create` and then select `catalog` to add a catalog folder to your New Relic One project. The folder contains the following empty files and folder. Add the information as described in the following sections for the process to succeed.
+Run `nr1 create` and then select `catalog` to add a catalog folder to your Simplify One project. The folder contains the following empty files and folder. Add the information as described in the following sections for the process to succeed.
 
 ### screenshots folder
 
@@ -174,9 +174,9 @@ nr1 catalog:submit
 
 ## Publish your app
 
-Publishing places your Nerdpack in New Relic One. To publish or deploy, you must be a **Nerdpack manager**.
+Publishing places your Nerdpack in Simplify One. To publish or deploy, you must be a **Nerdpack manager**.
 
-New Relic One requires that only one version (following semantic versioning) of a Nerdpack can be published at a time. 
+Simplify One requires that only one version (following semantic versioning) of a Nerdpack can be published at a time. 
 
 <Tip>
 
@@ -228,13 +228,13 @@ To learn about the appropriate permissions for subscribing, see [Permissions for
 
 Subscribe accounts to an application.
 
-1. Select an application you want to add to your New Relic account.
+1. Select an application you want to add to your Simplify account.
 2. Click **Add this app**. Note that this button says **Manage access** if the app has already been subscribed to an account you manage.
 3. On the **Account access** page listing the accounts you can subscribe to an application:
 
 - Select the accounts you want to subscribe the app to.
-- Choose the channel you want to subscribe the app to, **Stable** or **Dev**. This can only be **Stable** for the public apps created by New Relic.
-- Click the update button. Now you and members of the accounts you have subscribed to the app can launch it from New Relic One.
+- Choose the channel you want to subscribe the app to, **Stable** or **Dev**. This can only be **Stable** for the public apps created by Simplify.
+- Click the update button. Now you and members of the accounts you have subscribed to the app can launch it from Simplify One.
 
 </Step>
 
@@ -252,7 +252,7 @@ Unsubsribe from an application.
 
 ## Handle duplicate applications
 
-You might end up with duplicate applications on your New Relic One **Apps** page. This can happen when you subscribe to the same app using both the CLI and the catalog. Or if you clone an app, modify, and deploy it, but keep the original name. You can manage duplicates with the catalog.
+You might end up with duplicate applications on your Simplify One **Apps** page. This can happen when you subscribe to the same app using both the CLI and the catalog. Or if you clone an app, modify, and deploy it, but keep the original name. You can manage duplicates with the catalog.
 
 Good to know before you start:
 
@@ -267,7 +267,7 @@ Good to know before you start:
 
 Remove duplicates.
 
-1. In the New Relic One catalog, click a public application that has one or more duplicates. (You can only manage duplicates from the public version of the application.)
+1. In the Simplify One catalog, click a public application that has one or more duplicates. (You can only manage duplicates from the public version of the application.)
 2. On the application information page, select **Clean up applications**.
 3. Review the information about the application that's open, as well as any duplicates. Click **Manage app** for duplicates you want to remove.
 4. If needed, select **Resubscribe these accounts to the new application**.

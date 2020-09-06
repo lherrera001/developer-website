@@ -90,7 +90,7 @@ const Contribute = ({ pageContext }) => {
         `}
       >
         Read our{' '}
-        <ExternalLink href="https://github.com/newrelic/developer-website/blob/main/CONTRIBUTING.md">
+        <ExternalLink href="https://github.com/herrera-luis/developer-website/blob/main/CONTRIBUTING.md">
           guide
         </ExternalLink>{' '}
         on how to contribute
