@@ -2,11 +2,11 @@ const quote = (str) => `"${str}"`;
 
 module.exports = {
   siteMetadata: {
-    title: 'New Relic Developers',
+    title: 'Simplify',
     description:
       'Do more on our platform and make New Relic your own with APIs, SDKs, code snippets, tutorials, and more developer tools.',
-    author: 'New Relic',
-    repository: 'https://github.com/newrelic/developer-website',
+    author: 'TELUS',
+    repository: 'https://github.com/herrera-luis/developer-website',
     siteUrl: 'https://developer.newrelic.com',
   },
   plugins: [

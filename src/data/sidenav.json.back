@@ -1,7 +1,62 @@
 [
   {
-
-    "displayName": "Add",
+    "displayName": "Collect data",
+    "url": "/collect-data",
+    "children": [
+      {
+        "displayName": "Collect data from any source",
+        "url": "/collect-data/collect-data-from-any-source"
+      },
+      {
+        "displayName": "Create custom attributes",
+        "url": "/collect-data/custom-attributes"
+      },
+      {
+        "displayName": "Create custom New Relic events",
+        "url": "/collect-data/custom-events"
+      },
+      {
+        "displayName": "Query data with NRQL",
+        "url": "/collect-data/query-data-nrql"
+      },
+      {
+        "displayName": "Explore NerdGraph using the API Explorer",
+        "url": "/collect-data/get-started-nerdgraph-api-explorer"
+      }
+    ]
+  },
+  {
+    "displayName": "Automate workflows",
+    "url": "/automate-workflows",
+    "children": [
+      {
+        "displayName": "Get started with the New Relic CLI",
+        "url": "/automate-workflows/get-started-new-relic-cli"
+      },
+      {
+        "displayName": "Set up New Relic using Terraform",
+        "url": "/automate-workflows/get-started-terraform"
+      },
+      {
+        "displayName": "Set up New Relic using the Kubernetes operator",
+        "url": "/automate-workflows/get-started-kubernetes"
+      },
+      {
+        "displayName": "Set up New Relic using Helm charts",
+        "url": "/automate-workflows/kubernetes-helm-deployment"
+      },
+      {
+        "displayName": "Tag a set of resources efficiently",
+        "url": "/automate-workflows/5-mins-tag-resources"
+      },
+      {
+        "displayName": "Automated end-to-end tagging of entities",
+        "url": "/automate-workflows/automated-tagging"
+      }
+    ]
+  },
+  {
+    "displayName": "Build apps",
     "url": "/build-apps",
     "children": [
       {
@@ -47,7 +102,7 @@
     ]
   },
   {
-    "displayName": "APIs",
+    "displayName": "Try our APIs",
     "children": [
       {
         "displayName": "New Relic API Explorer",
@@ -60,9 +115,13 @@
     ]
   },
   {
-    "displayName": "Documentation",
+    "displayName": "Explore docs",
     "children": [
       {
+        "displayName": "New Relic One CLI",
+        "url": "/explore-docs/nr1-cli",
+        "children": [
+          {
             "displayName": "Common commands",
             "url": "/explore-docs/nr1-common"
           },
@@ -71,56 +130,19 @@
             "url": "/explore-docs/nr1-config"
           },
           {
-            "displayName": "Squads",
+            "displayName": "Nerdpack commands",
             "url": "/explore-docs/nr1-nerdpack"
           },
           {
-            "displayName": "Products",
-             "children": [{
-                 "displayName": "Product one page",
-                 "children":[
-                   {
-                      "displayName": "Squad",
-                      "url": "/build-apps/set-up-dev-env"
-                   },
-                   {
-                     "displayName": "User",
-                     "url": "/build-apps/set-up-dev-env"
-                   },
-                   {
-                     "displayName": "Product vision",
-                     "url": "/build-apps/set-up-dev-env"
-                   },
-                   {
-                     "displayName": "Product goals",
-                     "url": "/build-apps/set-up-dev-env"
-                   },
-                   {
-                     "displayName": "APIs",
-                     "url": "/build-apps/set-up-dev-env"
-                   },
-                   {
-                     "displayName": "Services",
-                     "url": "/build-apps/set-up-dev-env"
-                   },
-                   {
-                     "displayName": "Libraries",
-                     "url": "/build-apps/set-up-dev-env"
-                   }
-                 ]
-               },
-               {
-                 "displayName": "From scratch",
-                 "url": "/explore-docs/products/from-scratch"
-               }
-              ]
+            "displayName": "Subscription commands",
+            "url": "/explore-docs/nr1-subscription"
           },
           {
-            "displayName": "Services",
+            "displayName": "Plugin commands",
             "url": "/explore-docs/nr1-plugins"
           },
           {
-            "displayName": "Tools",
+            "displayName": "Catalog commands",
             "url": "/explore-docs/nr1-catalog"
           }
         ]
@@ -497,5 +519,37 @@
         ]
       }
     ]
-  
+  },
+  {
+    "displayName": "Developer events",
+    "url": "/developer-events",
+    "children": [
+      {
+        "displayName": "Nerd days 1.0",
+        "url": "/nerd-days"
+      },
+      {
+        "displayName": "All things open",
+        "url": "/all-things-open"
+      },
+      {
+        "displayName": "Past events",
+        "children": [
+          {
+            "displayName": "Kubecon & CloudNativeCon",
+            "url": "/kubecon-europe-2020"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "displayName": "Developer champions",
+    "url": "/developer-champion"
+  },
 
+  {
+    "displayName": "Podcasts",
+    "url": "/podcasts"
+  }
+]
