@@ -81,31 +81,31 @@
                  "children":[
                    {
                       "displayName": "Squad",
-                      "url": "/build-apps/set-up-dev-env"
+                      "url": "/explore-docs/products/product-one-page/squad"
                    },
                    {
                      "displayName": "User",
-                     "url": "/build-apps/set-up-dev-env"
+                     "url": "/explore-docs/products/product-one-page/user"
                    },
                    {
                      "displayName": "Product vision",
-                     "url": "/build-apps/set-up-dev-env"
+                     "url": "/explore-docs/products/product-one-page/product-vision"
                    },
                    {
                      "displayName": "Product goals",
-                     "url": "/build-apps/set-up-dev-env"
+                     "url": "/explore-docs/products/product-one-page/product-goals"
                    },
                    {
                      "displayName": "APIs",
-                     "url": "/build-apps/set-up-dev-env"
+                     "url": "/explore-docs/products/product-one-page/apis"
                    },
                    {
                      "displayName": "Services",
-                     "url": "/build-apps/set-up-dev-env"
+                     "url": "/explore-docs/products/product-one-page/services"
                    },
                    {
                      "displayName": "Libraries",
-                     "url": "/build-apps/set-up-dev-env"
+                     "url": "/explore-docs/products/product-one-page/libraries"
                    }
                  ]
                },
