@@ -27,7 +27,7 @@ const DeveloperChampionPage = () => {
               </p>
               <p>
                 Champions solve big problems using Simplify as their toolkit
-                and are recognized as experts and leaders in the Simplify
+                recognized as experts and leaders in the Simplify technical
                 technical community.{' '}
               </p>
               <Button

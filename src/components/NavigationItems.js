@@ -22,7 +22,7 @@ const iconLibrary = {
   Repositories: 'buildApps',
   APIs: 'tryOurAPIs',
   'Baseline projects': 'developerDocs',
-  Libraries: 'buildApps'
+  Libraries: 'buildApps',
 };
 
 const getHighlightedText = (text, highlight) => {
