@@ -14,15 +14,15 @@ import { useLocation, useMatch } from '@reach/router';
 
 const iconLibrary = {
   'Learning path': 'collectData',
-  'Add': 'buildApps',
+  Add: 'buildApps',
   'Automate workflows': 'automation',
-  'Documentation': 'developerDocs',
+  Documentation: 'developerDocs',
   'Team and squads': 'event',
-  'Users': 'developerChampions',
-  'Repositories': 'buildApps',
-  'APIs': 'tryOurAPIs',
+  Users: 'developerChampions',
+  Repositories: 'buildApps',
+  APIs: 'tryOurAPIs',
   'Baseline projects': 'developerDocs',
-  'Libraries': 'buildApps'
+  Libraries: 'buildApps'
 };
 
 const getHighlightedText = (text, highlight) => {
